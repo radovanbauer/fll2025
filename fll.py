@@ -9,7 +9,7 @@ prime_hub = PrimeHub(top_side=Axis.Z, front_side=Axis.X)
 left_wheel = Motor(Port.B, Direction.COUNTERCLOCKWISE)
 right_wheel = Motor(Port.F, Direction.CLOCKWISE)
 drive_base = DriveBase(left_wheel, right_wheel, 88, 111)
-
+claw = Motor(Port.A, Direction.CLOCKWISE)
 
 # The main program starts here.
 drive_base.use_gyro(True)
