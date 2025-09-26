@@ -7,8 +7,8 @@ if selected == "A":
 elif selected == "B":
     import run_b
 elif selected == "C":
-    import mission_salvage_operation
+    import run_c
 elif selected == "D":
-    import mission_paint_brush
+    import run_d
 elif selected == "E":
     import reset
