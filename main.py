@@ -12,3 +12,5 @@ elif selected == "D":
     import run_d
 elif selected == "E":
     import reset
+elif selected == "X":
+    import run_x

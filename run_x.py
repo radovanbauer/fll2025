@@ -15,30 +15,8 @@ drive_base.settings(straight_speed=500, turn_rate=100)
 
 
 # ## mission
-fork.run_target(100, 50)
-drive_base.straight(655)
-fork.run_target(100,-80)
-drive_base.turn(15)
-drive_base.turn(-35)
-drive_base.straight(60)
-drive_base.straight(-60)
-drive_base.turn(1)
-drive_base.straight(60)
-# pushed one of the topsoil
-drive_base.straight(-60)
-fork.run_target(100, -12)
-drive_base.turn(15)
-drive_base.straight(-10)
-drive_base.straight(65)
+fork.run_target(100, -15)
+for i in range(5):
+    drive_base.turn(-20)
+    drive_base.turn(20)
 
-fork.run_target(100, 50)
-drive_base.turn(5)
-drive_base.straight(-50)
-drive_base.turn(-3)
-drive_base.straight(-245)
-drive_base.turn(90)
-fork.run_target(100, -20)
-drive_base.straight(-30)
-drive_base.turn(-90)
-drive_base.straight(-470)
-drive_base 
